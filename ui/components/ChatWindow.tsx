@@ -282,7 +282,7 @@ const ChatWindow = ({ id }: { id?: string }) => {
   const [messages, setMessages] = useState<Message[]>([]);
 
   const [focusMode, setFocusMode] = useState('webSearch');
-  const [optimizationMode, setOptimizationMode] = useState('speed');
+  const [optimizationMode, setOptimizationMode] = useState('balanced');
 
   const [isMessagesLoaded, setIsMessagesLoaded] = useState(false);
 
